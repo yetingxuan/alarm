@@ -71,3 +71,6 @@ MDK-ARM/.vscode/c_cpp_properties.json
 MDK-ARM/.vscode/keil-assistant.log
 MDK-ARM/.vscode/uv4.log.lock
 MDK-ARM/.vscode/uv4.log
+MDK-ARM/PROJECT/debug.crf
+MDK-ARM/PROJECT/debug.d
+MDK-ARM/PROJECT/debug.o
