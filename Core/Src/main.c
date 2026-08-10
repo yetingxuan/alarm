@@ -25,6 +25,7 @@
 /* USER CODE BEGIN Includes */
 #include "DEBUG.h"
 #include "App_freeRTOS.h"
+#include "DS_1302Z.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -97,8 +98,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    debug_printf("hello world %d", 123);
-    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

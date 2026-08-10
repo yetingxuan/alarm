@@ -502,6 +502,66 @@
               <FileType>5</FileType>
               <FilePath>..\hardware\DEBUG.h</FilePath>
             </File>
+            <File>
+              <FileName>KEY.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\KEY.c</FilePath>
+            </File>
+            <File>
+              <FileName>KEY.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\KEY.h</FilePath>
+            </File>
+            <File>
+              <FileName>MIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\MIC.c</FilePath>
+            </File>
+            <File>
+              <FileName>MIC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\MIC.h</FilePath>
+            </File>
+            <File>
+              <FileName>DS_1302Z.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\DS_1302Z.c</FilePath>
+            </File>
+            <File>
+              <FileName>DS_1302Z.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\DS_1302Z.h</FilePath>
+            </File>
+            <File>
+              <FileName>DHT11.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\DHT11.c</FilePath>
+            </File>
+            <File>
+              <FileName>DHT11.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\DHT11.h</FilePath>
+            </File>
+            <File>
+              <FileName>NV020D.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\NV020D.c</FilePath>
+            </File>
+            <File>
+              <FileName>NV020D.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\NV020D.h</FilePath>
+            </File>
+            <File>
+              <FileName>LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\LED.c</FilePath>
+            </File>
+            <File>
+              <FileName>LED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\LED.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

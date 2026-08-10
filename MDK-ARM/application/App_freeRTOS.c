@@ -14,15 +14,14 @@ void task1(void*args)
 {
     while(1)
     {
-        debug_printf("task1");
-        vTaskDelay(1000);
+        vTaskDelay(10);
     }
 }
 void task2(void*args)
 {
+    Inf_led_start();
     while(1)
     {
-        debug_printf("task2");
         vTaskDelay(1000);
     }
 }
