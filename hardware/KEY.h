@@ -25,13 +25,13 @@ typedef enum{
     LIGHT_ON=0,
     LIGHT_OFF,
 }Light_Type_value;
-typedef enum{
-    TOUCH_NONE=0,
-    TOUCH_UP,
-}Touch_value;
+// typedef enum{
+//     TOUCH_NONE=0,
+//     TOUCH_UP,
+// }Touch_value;
 
 Key_type_value Inf_get_key_value(void);
 LED_ON_Type_value Inf_get_led_on_value(void);
 Light_Type_value Inf_get_light_value(void);
-Touch_value Inf_get_touch_value(void);
+// Touch_value Inf_get_touch_value(void);
 #endif

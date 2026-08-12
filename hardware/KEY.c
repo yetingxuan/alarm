@@ -106,18 +106,18 @@ Light_Type_value Inf_get_light_value(void)
 {
     if (HAL_GPIO_ReadPin(LIGHT_GPIO_Port,LIGHT_Pin)==RESET)
     {
-        return LIGHT_ON;
+        return LIGHT_OFF;
     }
-    return LIGHT_OFF;
+    return LIGHT_ON;
 }
 /**
  * 触摸按键
  */
-Touch_value Inf_get_touch_value(void)
-{
-    if (HAL_GPIO_ReadPin(TOUCH_GPIO_Port,TOUCH_Pin)==RESET)
-    {
-        return TOUCH_NONE;
-    }
-    return TOUCH_UP;
-}
+// Touch_value Inf_get_touch_value(void)
+// {
+//     if (HAL_GPIO_ReadPin(TOUCH_GPIO_Port,TOUCH_Pin)==RESET)
+//     {
+//         return TOUCH_NONE;
+//     }
+//     return TOUCH_UP;
+// }

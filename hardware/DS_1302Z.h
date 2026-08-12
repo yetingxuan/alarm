@@ -23,8 +23,29 @@
 #define DS_RST_H() HAL_GPIO_WritePin(DS_RST_GPIO_Port,DS_RST_Pin,GPIO_PIN_SET)
 #define DS_RST_L() HAL_GPIO_WritePin(DS_RST_GPIO_Port,DS_RST_Pin,GPIO_PIN_RESET)
 
+typedef struct{
+    uint16_t year;
+    uint8_t month;
+    uint8_t day;
+    int8_t hour;
+    int8_t min;
+    uint8_t sec;
+    uint8_t week;
+    uint8_t is_pm;
+    uint8_t is_12_flag;
+}Clock_Date_time_type;
+typedef struct {
+    int8_t hour;
+    int8_t min;
+    uint8_t is_on;
+    uint8_t is_done;
+}Alarm_Time_Type;
+
+
 void Inf_Delay_us(uint32_t us);
 uint8_t Inf_DS1302Z_Read_Byte(uint8_t reg_addr);
 void Inf_DS1302Z_Write_Byte(uint8_t reg_addr, uint8_t data);
+void datatime_get(Clock_Date_time_type *data_time);
+void dataTime_set(Clock_Date_time_type *data_time);
 #endif
 

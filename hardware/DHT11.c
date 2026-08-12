@@ -22,6 +22,7 @@ void Inf_dht11_get_data(int8_t *temperature,int8_t*humidity)
      * 超时逻辑
      */
     uint32_t count=0xffffff;
+    taskENTER_CRITICAL();
     while (DHT11_DATA_Read()==GPIO_PIN_SET&&count--)
     {
         /* 等待响应信号开始 */
@@ -84,5 +85,6 @@ void Inf_dht11_get_data(int8_t *temperature,int8_t*humidity)
     {
         debug_printf("DHT11数据效验失败");
     }
+    taskEXIT_CRITICAL();
 }
 

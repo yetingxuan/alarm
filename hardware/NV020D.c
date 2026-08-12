@@ -74,16 +74,16 @@ void Inf_nv020d_send_cmd(uint8_t cmd)
         if (cmd&(0x01<<i))
         {
             NV020D_CTR_H();
-            Inf_Delay_us(1200);
+            vTaskDelay(3);
             NV020D_CTR_L();
-            Inf_Delay_us(400);
+            vTaskDelay(1);
         }
         else
         {
             NV020D_CTR_H();
-            Inf_Delay_us(400);
+            vTaskDelay(1);
             NV020D_CTR_L();
-            Inf_Delay_us(1200);
+            vTaskDelay(3);
         }
     }
     NV020D_CTR_H();

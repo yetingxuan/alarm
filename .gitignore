@@ -122,3 +122,16 @@ MDK-ARM/PROJECT/mic.o
 MDK-ARM/PROJECT/nv020d.crf
 MDK-ARM/PROJECT/nv020d.d
 MDK-ARM/PROJECT/nv020d.o
+MDK-ARM/PROJECT/app_freertos_1.crf
+MDK-ARM/PROJECT/app_freertos_1.d
+MDK-ARM/PROJECT/app_freertos_1.o
+MDK-ARM/PROJECT/app_show.crf
+MDK-ARM/PROJECT/app_show.d
+MDK-ARM/PROJECT/app_show.o
+MDK-ARM/PROJECT/ExtDll.iex
+MDK-ARM/PROJECT/app_switch.crf
+MDK-ARM/PROJECT/app_switch.d
+MDK-ARM/PROJECT/app_switch.o
+MDK-ARM/PROJECT/touch.crf
+MDK-ARM/PROJECT/touch.d
+MDK-ARM/PROJECT/touch.o
